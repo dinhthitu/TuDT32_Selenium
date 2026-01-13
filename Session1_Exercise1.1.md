@@ -1,0 +1,4 @@
+- Create Maven project with proper structure
+- Add Selenium, TestNG, WebDriverManager dependencies
+- Write first test with google( open, navigate, close)
+- Advanced (properties file config)
