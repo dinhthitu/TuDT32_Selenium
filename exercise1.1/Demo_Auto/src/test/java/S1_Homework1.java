@@ -1,22 +1,22 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
 import java.io.IOException;
 
 public class S1_Homework1 {
 
     WebDriver driver;
-    @BeforeClass
+    @BeforeAll
     public static void setup() throws IOException {
         configProperties.initializeProperty();
     }
 
     @Test
-    public void firstTest() throws InterruptedException {
+    public void Setup_success() throws InterruptedException {
         //set up browser
         if(configProperties.browser.equalsIgnoreCase("chrome")){
             WebDriverManager.chromedriver().setup();
