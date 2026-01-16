@@ -1,9 +1,10 @@
-package config;
+package report;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-public class configReport {
+public class ReportManager {
+
     public static ExtentReports extent;
 
     public static ExtentReports getReport() {

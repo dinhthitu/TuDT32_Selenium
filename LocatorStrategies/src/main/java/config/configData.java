@@ -5,12 +5,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-public class configProperties {
+public class configData {
     public static Properties properties;
     public static String browser;
     public static String url;
     public static String username;
     public static String email;
+    public static String fileTest;
     private static String configPath = "config.properties";
 
     public static void initializeProperty() throws IOException{
@@ -21,5 +22,6 @@ public class configProperties {
         url = properties.getProperty("url");
         username = properties.getProperty("username");
         email =  properties.getProperty("email");
+        fileTest = properties.getProperty("file");
     }
 }
