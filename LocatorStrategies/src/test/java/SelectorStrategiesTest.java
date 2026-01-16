@@ -74,8 +74,8 @@ public class SelectorStrategiesTest extends BaseTest{
     @Test(priority = 6)
     public void testByLinkText() throws InterruptedException {
 
-            DriverManager.getDriver().findElement(LocatorItems.BROKEN_LINKS).click();
-            Thread.sleep(2000);
+        DriverManager.getDriver().findElement(LocatorItems.BROKEN_LINKS).click();
+        Thread.sleep(2000);
         DriverManager.getDriver().findElement(LocatorItems.VALID_LINK).click();
 
         DriverManager.getDriver().navigate().back();
@@ -113,7 +113,7 @@ public class SelectorStrategiesTest extends BaseTest{
         DriverManager.getDriver().findElement(LocatorItems.TEXT_BOX_MENU).click();
         DriverManager.getDriver().findElement(LocatorItems.CURRENT_ADDRESS).sendKeys(configData.username);
 
-        test.pass("Test by xpath sibling - success");
+        test.pass("Test by xpath relationship - success");
     }
 
     @Test(priority = 10)

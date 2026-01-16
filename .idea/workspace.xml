@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30a1bc5e-2faf-4e86-84e9-369b2d7f7395" name="Changes" comment="&quot;reconstruct project &quot;">
+      <change beforePath="$PROJECT_DIR$/LocatorStrategies/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LocatorStrategies/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocatorStrategies/reports/TestReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/LocatorStrategies/reports/TestReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocatorStrategies/src/test/java/SelectorStrategiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocatorStrategies/src/test/java/SelectorStrategiesTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dinhthitu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dinhthitu/TuDT32_Selenium.git&quot;,
+    &quot;accountId&quot;: &quot;8c1739e7-3a2c-435e-a733-0e39696138dd&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="38KIqZ6aycYVBCC8I5WAipzth3I" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.SelectorStrategiesTest.executor": "Run",
+    "TestNG.SelectorStrategiesTest.testByChained.executor": "Run",
+    "TestNG.SelectorStrategiesTest.testByLinkText.executor": "Run",
+    "TestNG.SelectorStrategiesTest.testByPartialLinkText.executor": "Run",
+    "TestNG.SelectorStrategiesTest.testByXPath2.executor": "Run",
+    "TestNG.SelectorStrategiesTest.testByXPath3.executor": "Run",
+    "git-widget-placeholder": "#4 on feature/exercise1.2",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SelectorStrategiesTest.testByChained" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LocatorStrategies" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelectorStrategiesTest" />
+      <option name="METHOD_NAME" value="testByChained" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectorStrategiesTest.testByLinkText" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LocatorStrategies" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelectorStrategiesTest" />
+      <option name="METHOD_NAME" value="testByLinkText" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectorStrategiesTest.testByPartialLinkText" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LocatorStrategies" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelectorStrategiesTest" />
+      <option name="METHOD_NAME" value="testByPartialLinkText" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectorStrategiesTest.testByXPath2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LocatorStrategies" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelectorStrategiesTest" />
+      <option name="METHOD_NAME" value="testByXPath2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectorStrategiesTest.testByXPath3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LocatorStrategies" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelectorStrategiesTest" />
+      <option name="METHOD_NAME" value="testByXPath3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SelectorStrategiesTest.testByXPath3" />
+        <item itemvalue="TestNG.SelectorStrategiesTest.testByXPath2" />
+        <item itemvalue="TestNG.SelectorStrategiesTest.testByPartialLinkText" />
+        <item itemvalue="TestNG.SelectorStrategiesTest.testByLinkText" />
+        <item itemvalue="TestNG.SelectorStrategiesTest.testByChained" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30a1bc5e-2faf-4e86-84e9-369b2d7f7395" name="Changes" comment="" />
+      <created>1768542027362</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768542027362</updated>
+    </task>
+    <task id="LOCAL-00001" summary="&quot;reconstruct project &quot;">
+      <option name="closed" value="true" />
+      <created>1768546498750</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768546498750</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;reconstruct project &quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;reconstruct project &quot;" />
+  </component>
+</project>
