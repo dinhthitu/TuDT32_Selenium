@@ -1,4 +1,4 @@
-import base.BaseTest;
+import base.BaseTest1;
 import driver.DriverManager;
 import locators.TestLocators;
 
@@ -8,7 +8,7 @@ import utils.CustomWaitFunc;
 
 import static org.testng.Assert.assertEquals;
 
-public class TestWaitStrategies extends BaseTest {
+public class Test1WaitStrategies extends BaseTest1 {
 
     private DynamicLoading dynamicLoading;
 

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="20" passed="11" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-26T22:58:48 ICT" name="Calculator Regression Test" finished-at="2026-01-26T22:58:48 ICT" duration-ms="21">
+    <groups>
+      <group name="edge">
+        <method signature="CalculatorTest.shouldValidateMultipleOperationsUsingSoftAssert()[pri:0, instance:CalculatorTest@5c6648b0]" name="shouldValidateMultipleOperationsUsingSoftAssert" class="CalculatorTest"/>
+      </group> <!-- edge -->
+      <group name="regression">
+        <method signature="CalculatorTest.shouldDivideTwoNumbers(int,int)[pri:0, instance:CalculatorTest@5c6648b0]" name="shouldDivideTwoNumbers" class="CalculatorTest"/>
+        <method signature="CalculatorTest.shouldMultiplyTwoNumbers(int,int)[pri:0, instance:CalculatorTest@5c6648b0]" name="shouldMultiplyTwoNumbers" class="CalculatorTest"/>
+        <method signature="CalculatorTest.shouldValidateMultipleOperationsUsingSoftAssert()[pri:0, instance:CalculatorTest@5c6648b0]" name="shouldValidateMultipleOperationsUsingSoftAssert" class="CalculatorTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2026-01-26T22:58:48 ICT" name="Regression test" finished-at="2026-01-26T22:58:48 ICT" duration-ms="21">
+      <class name="CalculatorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CalculatorTest@5c6648b0]" started-at="2026-01-26T22:58:48 ICT" name="setUp" finished-at="2026-01-26T22:58:48 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initTestCase()[pri:0, instance:CalculatorTest@5c6648b0]" started-at="2026-01-26T22:58:48 ICT" name="initTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestCase -->
+        <test-method signature="shouldMultiplyTwoNumbers(int,int)[pri:0, instance:CalculatorTest@5c6648b0]" started-at="2026-01-26T22:58:48 ICT" name="shouldMultiplyTwoNumbers" finished-at="2026-01-26T22:58:48 ICT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldMultiplyTwoNumbers -->
+        <test-method is-config="true" signature="cleanTestCase()[pri:0, instance:CalculatorTest@5c6648b0]" started-at="2026-01-26T22:58:48 ICT" name="cleanTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTestCase -->
+        <test-method signature="shouldDivideTwoNumbers(int,int)[pri:0, instance:CalculatorTest@5c6648b0]" started-at="2026-01-26T22:58:48 ICT" name="shouldDivideTwoNumbers" finished-at="2026-01-26T22:58:48 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldDivideTwoNumbers -->
+        <test-method is-config="true" signature="initTestCase()[pri:0, instance:CalculatorTest@5c6648b0]" started-at="2026-01-26T22:58:48 ICT" name="initTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestCase -->
+        <test-method is-config="true" signature="cleanTestCase()[pri:0, instance:CalculatorTest@5c6648b0]" started-at="2026-01-26T22:58:48 ICT" name="cleanTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTestCase -->
+        <test-method signature="shouldValidateMultipleOperationsUsingSoftAssert()[pri:0, instance:CalculatorTest@5c6648b0]" started-at="2026-01-26T22:58:48 ICT" name="shouldValidateMultipleOperationsUsingSoftAssert" finished-at="2026-01-26T22:58:48 ICT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldValidateMultipleOperationsUsingSoftAssert -->
+        <test-method is-config="true" signature="initTestCase()[pri:0, instance:CalculatorTest@5c6648b0]" started-at="2026-01-26T22:58:48 ICT" name="initTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestCase -->
+        <test-method is-config="true" signature="cleanTestCase()[pri:0, instance:CalculatorTest@5c6648b0]" started-at="2026-01-26T22:58:48 ICT" name="cleanTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CalculatorTest@5c6648b0]" started-at="2026-01-26T22:58:48 ICT" name="tearDown" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CalculatorTest -->
+    </test> <!-- Regression test -->
+  </suite> <!-- Calculator Regression Test -->
+  <suite started-at="2026-01-26T22:58:48 ICT" name="Calculator Smoke Test" finished-at="2026-01-26T22:58:48 ICT" duration-ms="66">
+    <groups>
+      <group name="smoke">
+        <method signature="CalculatorTest.shouldAddTwoNumbers()[pri:0, instance:CalculatorTest@2d7275fc]" name="shouldAddTwoNumbers" class="CalculatorTest"/>
+        <method signature="CalculatorTest.shouldSubtractTwoNumbers()[pri:0, instance:CalculatorTest@2d7275fc]" name="shouldSubtractTwoNumbers" class="CalculatorTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-01-26T22:58:48 ICT" name="Smoke test" finished-at="2026-01-26T22:58:48 ICT" duration-ms="66">
+      <class name="CalculatorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CalculatorTest@2d7275fc]" started-at="2026-01-26T22:58:48 ICT" name="setUp" finished-at="2026-01-26T22:58:48 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initTestCase()[pri:0, instance:CalculatorTest@2d7275fc]" started-at="2026-01-26T22:58:48 ICT" name="initTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestCase -->
+        <test-method signature="shouldAddTwoNumbers()[pri:0, instance:CalculatorTest@2d7275fc]" started-at="2026-01-26T22:58:48 ICT" name="shouldAddTwoNumbers" finished-at="2026-01-26T22:58:48 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoNumbers -->
+        <test-method is-config="true" signature="cleanTestCase()[pri:0, instance:CalculatorTest@2d7275fc]" started-at="2026-01-26T22:58:48 ICT" name="cleanTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTestCase -->
+        <test-method signature="shouldSubtractTwoNumbers()[pri:0, instance:CalculatorTest@2d7275fc]" started-at="2026-01-26T22:58:48 ICT" name="shouldSubtractTwoNumbers" finished-at="2026-01-26T22:58:48 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSubtractTwoNumbers -->
+        <test-method is-config="true" signature="initTestCase()[pri:0, instance:CalculatorTest@2d7275fc]" started-at="2026-01-26T22:58:48 ICT" name="initTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestCase -->
+        <test-method is-config="true" signature="cleanTestCase()[pri:0, instance:CalculatorTest@2d7275fc]" started-at="2026-01-26T22:58:48 ICT" name="cleanTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CalculatorTest@2d7275fc]" started-at="2026-01-26T22:58:48 ICT" name="tearDown" finished-at="2026-01-26T22:58:48 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CalculatorTest -->
+    </test> <!-- Smoke test -->
+  </suite> <!-- Calculator Smoke Test -->
+  <suite started-at="2026-01-26T22:58:48 ICT" name="Wait Strategy" finished-at="2026-01-26T22:59:12 ICT" duration-ms="24257">
+    <groups>
+      <group name="edge">
+        <method signature="CalculatorTest.shouldThrowExceptionWhenDivideByZero()[pri:0, instance:CalculatorTest@368f2016]" name="shouldThrowExceptionWhenDivideByZero" class="CalculatorTest"/>
+        <method signature="CalculatorTest.shouldValidateMultipleOperationsUsingSoftAssert()[pri:0, instance:CalculatorTest@368f2016]" name="shouldValidateMultipleOperationsUsingSoftAssert" class="CalculatorTest"/>
+      </group> <!-- edge -->
+      <group name="regression">
+        <method signature="CalculatorTest.shouldDivideTwoNumbers(int,int)[pri:0, instance:CalculatorTest@368f2016]" name="shouldDivideTwoNumbers" class="CalculatorTest"/>
+        <method signature="CalculatorTest.shouldMultiplyTwoNumbers(int,int)[pri:0, instance:CalculatorTest@368f2016]" name="shouldMultiplyTwoNumbers" class="CalculatorTest"/>
+        <method signature="CalculatorTest.shouldValidateMultipleOperationsUsingSoftAssert()[pri:0, instance:CalculatorTest@368f2016]" name="shouldValidateMultipleOperationsUsingSoftAssert" class="CalculatorTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CalculatorTest.shouldAddTwoNumbers()[pri:0, instance:CalculatorTest@368f2016]" name="shouldAddTwoNumbers" class="CalculatorTest"/>
+        <method signature="CalculatorTest.shouldSubtractTwoNumbers()[pri:0, instance:CalculatorTest@368f2016]" name="shouldSubtractTwoNumbers" class="CalculatorTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-01-26T22:58:48 ICT" name="Wait Strategy " finished-at="2026-01-26T22:59:12 ICT" duration-ms="24257">
+      <class name="Test1WaitStrategies">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test1WaitStrategies@4d5d943d]" started-at="2026-01-26T22:58:48 ICT" name="setUp" finished-at="2026-01-26T22:58:56 ICT" duration-ms="7963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessMessage()[pri:1, instance:Test1WaitStrategies@4d5d943d]" started-at="2026-01-26T22:58:56 ICT" name="testSuccessMessage" finished-at="2026-01-26T22:59:01 ICT" duration-ms="5503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test1WaitStrategies@4d5d943d]" started-at="2026-01-26T22:59:01 ICT" name="tearDown" finished-at="2026-01-26T22:59:02 ICT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test1WaitStrategies@4d5d943d]" started-at="2026-01-26T22:59:02 ICT" name="setUp" finished-at="2026-01-26T22:59:07 ICT" duration-ms="4881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAdvance()[pri:2, instance:Test1WaitStrategies@4d5d943d]" started-at="2026-01-26T22:59:07 ICT" name="testAdvance" finished-at="2026-01-26T22:59:12 ICT" duration-ms="5514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdvance -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test1WaitStrategies@4d5d943d]" started-at="2026-01-26T22:59:12 ICT" name="tearDown" finished-at="2026-01-26T22:59:12 ICT" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test1WaitStrategies -->
+      <class name="CalculatorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CalculatorTest@368f2016]" started-at="2026-01-26T22:58:48 ICT" name="setUp" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldAddTwoNumbers()[pri:0, instance:CalculatorTest@368f2016]" started-at="2026-01-26T22:58:48 ICT" name="shouldAddTwoNumbers" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoNumbers -->
+        <test-method is-config="true" signature="initTestCase()[pri:0, instance:CalculatorTest@368f2016]" started-at="2026-01-26T22:58:48 ICT" name="initTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestCase -->
+        <test-method is-config="true" signature="cleanTestCase()[pri:0, instance:CalculatorTest@368f2016]" started-at="2026-01-26T22:58:48 ICT" name="cleanTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTestCase -->
+        <test-method signature="shouldDivideTwoNumbers(int,int)[pri:0, instance:CalculatorTest@368f2016]" started-at="2026-01-26T22:58:48 ICT" name="shouldDivideTwoNumbers" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'a' is required by @Test on method shouldDivideTwoNumbers but has not been marked @Optional or defined
+in C:\Users\Admin\TuDT32_Selenium\TestNG\wait.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'a' is required by @Test on method shouldDivideTwoNumbers but has not been marked @Optional or defined
+in C:\Users\Admin\TuDT32_Selenium\TestNG\wait.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldDivideTwoNumbers -->
+        <test-method signature="shouldMultiplyTwoNumbers(int,int)[pri:0, instance:CalculatorTest@368f2016]" started-at="2026-01-26T22:58:48 ICT" name="shouldMultiplyTwoNumbers" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'a' is required by @Test on method shouldMultiplyTwoNumbers but has not been marked @Optional or defined
+in C:\Users\Admin\TuDT32_Selenium\TestNG\wait.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'a' is required by @Test on method shouldMultiplyTwoNumbers but has not been marked @Optional or defined
+in C:\Users\Admin\TuDT32_Selenium\TestNG\wait.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldMultiplyTwoNumbers -->
+        <test-method is-config="true" signature="initTestCase()[pri:0, instance:CalculatorTest@368f2016]" started-at="2026-01-26T22:58:48 ICT" name="initTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestCase -->
+        <test-method signature="shouldSubtractTwoNumbers()[pri:0, instance:CalculatorTest@368f2016]" started-at="2026-01-26T22:58:48 ICT" name="shouldSubtractTwoNumbers" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSubtractTwoNumbers -->
+        <test-method is-config="true" signature="cleanTestCase()[pri:0, instance:CalculatorTest@368f2016]" started-at="2026-01-26T22:58:48 ICT" name="cleanTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTestCase -->
+        <test-method signature="shouldThrowExceptionWhenDivideByZero()[pri:0, instance:CalculatorTest@368f2016]" started-at="2026-01-26T22:58:48 ICT" name="shouldThrowExceptionWhenDivideByZero" finished-at="2026-01-26T22:58:48 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowExceptionWhenDivideByZero -->
+        <test-method is-config="true" signature="initTestCase()[pri:0, instance:CalculatorTest@368f2016]" started-at="2026-01-26T22:58:48 ICT" name="initTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestCase -->
+        <test-method is-config="true" signature="cleanTestCase()[pri:0, instance:CalculatorTest@368f2016]" started-at="2026-01-26T22:58:48 ICT" name="cleanTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTestCase -->
+        <test-method is-config="true" signature="initTestCase()[pri:0, instance:CalculatorTest@368f2016]" started-at="2026-01-26T22:58:48 ICT" name="initTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestCase -->
+        <test-method signature="shouldValidateMultipleOperationsUsingSoftAssert()[pri:0, instance:CalculatorTest@368f2016]" started-at="2026-01-26T22:58:48 ICT" name="shouldValidateMultipleOperationsUsingSoftAssert" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldValidateMultipleOperationsUsingSoftAssert -->
+        <test-method is-config="true" signature="cleanTestCase()[pri:0, instance:CalculatorTest@368f2016]" started-at="2026-01-26T22:58:48 ICT" name="cleanTestCase" finished-at="2026-01-26T22:58:48 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CalculatorTest@368f2016]" started-at="2026-01-26T22:58:48 ICT" name="tearDown" finished-at="2026-01-26T22:58:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CalculatorTest -->
+    </test> <!-- Wait Strategy  -->
+  </suite> <!-- Wait Strategy -->
+  <suite started-at="2026-01-26T22:59:12 ICT" name="Main Automation Suite" finished-at="2026-01-26T22:59:12 ICT" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Main Automation Suite -->
+</testng-results>
