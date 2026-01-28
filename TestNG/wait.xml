@@ -1,0 +1,10 @@
+
+<suite name="Wait Strategy">
+
+        <test name="Wait Strategy ">
+            <classes>
+                <class name="Test1WaitStrategies"/>
+            </classes>
+        </test>
+</suite>
+

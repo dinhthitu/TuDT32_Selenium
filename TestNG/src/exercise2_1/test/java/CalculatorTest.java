@@ -1,6 +1,7 @@
 
 import base.BaseTest;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -18,16 +19,18 @@ public class CalculatorTest extends BaseTest {
         Assert.assertEquals(result, 6, "Subtraction result is incorrect");
     }
 
+    @Parameters({"a", "b"})
     @Test(groups = "regression")
-    public void shouldMultiplyTwoNumbers() {
-        int result = calculator.multiply(3, 5);
-        Assert.assertEquals(result, 15, "Multiplication result is incorrect");
+    public void shouldMultiplyTwoNumbers(int a, int b) {
+        int result = calculator.multiply(a, b);
+        Assert.assertEquals(result, 50, "Multiplication result is incorrect");
     }
 
+    @Parameters({"a", "b"})
     @Test(groups = "regression")
-    public void shouldDivideTwoNumbers() {
-        int result = calculator.divide(20, 4);
-        Assert.assertEquals(result, 5, "Division result is incorrect");
+    public void shouldDivideTwoNumbers(int a, int b) {
+        int result = calculator.divide(a, b);
+        Assert.assertEquals(result, 2, "Division result is incorrect");
     }
 
     @Test(groups = {"regression", "edge"})
