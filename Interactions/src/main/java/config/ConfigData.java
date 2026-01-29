@@ -15,6 +15,8 @@ public class ConfigData {
     public static String password;
     public static String browser;
     public static String message;
+    public static String invalidUsername;
+    public static String invalidPassword;
 
     static {
         try (InputStream input = new FileInputStream(CONFIG_PATH)) {
@@ -24,6 +26,8 @@ public class ConfigData {
             username = properties.getProperty("username");
             password = properties.getProperty("password");
             message = properties.getProperty("message");
+            invalidUsername = properties.getProperty("invalidUsername");
+            invalidPassword = properties.getProperty("invalidPassword");
         } catch (IOException e) {
             throw new RuntimeException("Cannot load config", e);
         }
