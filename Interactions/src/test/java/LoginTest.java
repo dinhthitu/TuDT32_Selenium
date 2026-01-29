@@ -34,4 +34,22 @@ public class LoginTest extends BaseTest {
         assertEquals(DriverManager.getDriver().getWindowHandle(), mainTab);
 
     }
+
+    @Test(priority = 3)
+    public void test_login_invalid_username(){
+
+        loginPage.openLoginPage();
+        loginPage.login(ConfigData.invalidUsername, ConfigData.password);
+
+        assertEquals("Your username is invalid!", loginPage.getErrorMessage());
+    }
+
+    @Test(priority = 4)
+    public void test_login_invalid_password(){
+
+        loginPage.openLoginPage();
+        loginPage.login(ConfigData.username, ConfigData.invalidPassword);
+
+        assertEquals("Your password is invalid!", loginPage.getErrorMessage());
+    }
 }
