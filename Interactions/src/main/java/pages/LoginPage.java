@@ -1,45 +1,55 @@
-package pages;
+import base.BaseTest;
+import config.ConfigData;
+import driver.DriverManager;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+import pages.LoginPage;
+import utils.WindowUtils;
 
-import locators.LoginLocators;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import static org.testng.AssertJUnit.assertEquals;
 
-import java.time.Duration;
+public class LoginTest extends BaseTest {
 
-public class LoginPage {
+    private LoginPage loginPage;
 
-    private WebDriver driver;
-    private WebDriverWait wait;
+    @BeforeMethod
+    public void initPage(){
+        loginPage = new LoginPage(DriverManager.getDriver());
+    }
+    @Test(priority = 1)
+    public void test_login_successfully(){
 
-    public LoginPage(WebDriver driver){
-        this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        loginPage.openLoginPage();
+        loginPage.login(ConfigData.username, ConfigData.password);
+        assertEquals(ConfigData.message, loginPage.getSuccessMessage());
     }
 
-    public void openLoginPage(){
+    @Test(priority = 2)
+    public void test_advanced_requirements()  {
 
-        wait.until(ExpectedConditions.elementToBeClickable(LoginLocators.PRACTICE_PAGE)).click();
-
-        wait.until(ExpectedConditions.elementToBeClickable(LoginLocators.TEST_LOGIN_PAGE)).click();
-
-    }
-
-    public void login(String username, String password){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(LoginLocators.USERNAME))
-                .sendKeys(username);
-
-        driver.findElement(LoginLocators.PASSWORD).sendKeys(password);
-        driver.findElement(LoginLocators.SUBMIT).click();
+        loginPage.openLoginPage();
+        String mainTab = WindowUtils.openNewTab(DriverManager.getDriver());
+        WindowUtils.closeAllTabs(DriverManager.getDriver(), mainTab);
+        WindowUtils.refreshCurrentTab(DriverManager.getDriver());
+        assertEquals(DriverManager.getDriver().getWindowHandle(), mainTab);
 
     }
 
-    public String getSuccessMessage(){
-        return wait.until(ExpectedConditions.visibilityOfElementLocated(LoginLocators.LOGIN_SUCCESS)).getText();
+    @Test(priority = 3)
+    public void test_login_invalid_username(){
+
+        loginPage.openLoginPage();
+        loginPage.login(ConfigData.invalidUsername, ConfigData.password);
+
+        assertEquals("Your username is invalid!", loginPage.getErrorMessage());
     }
 
-    public String getErrorMessage(){
-        return wait.until(ExpectedConditions.visibilityOfElementLocated(LoginLocators.ERROR_MSG)).getText();
-    }
+    @Test(priority = 3)
+    public void test_login_invalid_password(){
 
+        loginPage.openLoginPage();
+        loginPage.login(ConfigData.username, ConfigData.invalidPassword);
+
+        assertEquals("Your password is invalid!", loginPage.getErrorMessage());
+    }
 }
