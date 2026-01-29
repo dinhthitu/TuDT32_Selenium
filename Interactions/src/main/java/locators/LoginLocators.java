@@ -18,4 +18,5 @@ public class LoginLocators {
 
     public static final By LOGIN_SUCCESS = By.xpath("//h1[text()='Logged In Successfully']");
 
+    public static final By ERROR_MSG = By.id("error");
 }
