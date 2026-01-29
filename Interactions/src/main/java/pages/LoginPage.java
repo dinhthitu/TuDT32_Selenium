@@ -38,4 +38,8 @@ public class LoginPage {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(LoginLocators.LOGIN_SUCCESS)).getText();
     }
 
+    public String getErrorMessage(){
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(LoginLocators.ERROR_MSG)).getText();
+    }
+
 }
