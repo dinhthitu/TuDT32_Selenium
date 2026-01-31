@@ -26,10 +26,10 @@ public class LoginPage {
     }
 
     public void login(String username, String password){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(LoginLocators.USERNAME))
+        wait.until(ExpectedConditions.visibilityOfElementLocated(LoginLocators.USERNAME)).clear()
                 .sendKeys(username);
 
-        driver.findElement(LoginLocators.PASSWORD).sendKeys(password);
+        driver.findElement(LoginLocators.PASSWORD).clear().sendKeys(password);
         driver.findElement(LoginLocators.SUBMIT).click();
 
     }
