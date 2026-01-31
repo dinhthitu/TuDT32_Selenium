@@ -1,0 +1,15 @@
+
+<suite name = "Calculator Smoke Test">
+
+    <test name = "Smoke test">
+        <classes>
+            <class name = "CalculatorTest">
+                <methods>
+                    <include name = "shouldAddTwoNumbers" />
+                    <include name = "shouldSubtractTwoNumbers"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>
