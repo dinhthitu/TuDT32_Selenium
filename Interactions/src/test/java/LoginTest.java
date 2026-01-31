@@ -13,7 +13,8 @@ public class LoginTest extends BaseTest {
     private LoginPage loginPage;
 
     @BeforeMethod
-    public void initPage(){
+    public void initPage()
+    {
         loginPage = new LoginPage(DriverManager.getDriver());
     }
     @Test(priority = 1)
