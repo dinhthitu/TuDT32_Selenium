@@ -11,7 +11,6 @@ public class DriverManager {
     private static WebDriver driver;
 
     public static void initDriver() {
-//        ConfigData.configProperty();
 
         if (ConfigData.browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
@@ -23,12 +22,12 @@ public class DriverManager {
         driver.get(ConfigData.appUrl);
     }
 
-    public static WebDriver getDriver(){
+    public static WebDriver getDriver() {
         return driver;
     }
 
-    public static void quitDriver(){
-        if(driver != null){
+    public static void quitDriver() {
+        if (driver != null) {
             driver.quit();
         }
     }

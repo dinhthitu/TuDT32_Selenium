@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends BasePage {
 
-    public LoginPage(WebDriver driver){
+    public LoginPage(WebDriver driver) {
         super(driver);
     }
 
@@ -19,7 +19,7 @@ public class LoginPage extends BasePage {
     @FindBy(id = "submit")
     private WebElement submit;
 
-    @FindBy(id= "error")
+    @FindBy(id = "error")
     private WebElement errorMsg;
 
     @FindBy(xpath = "//a[contains(normalize-space(), 'Practice')]")
@@ -28,43 +28,38 @@ public class LoginPage extends BasePage {
     @FindBy(linkText = "Test Login Page")
     private WebElement loginPageSection;
 
-    public String getErrorMessage(){
+    public String getErrorMessage() {
         waitUntilVisible(errorMsg);
         return errorMsg.getText();
     }
 
-    public void enterUsername(String input){
+    public LoginPage enterUsername(String input) {
         waitUntilVisible(username);
         username.clear();
         username.sendKeys(input);
+        return this;
     }
 
-    public void enterPassword(String input){
+    public LoginPage enterPassword(String input) {
         password.clear();
         password.sendKeys(input);
+        return this;
     }
 
-    public void clickSubmit(){
+    public SuccessPage clickSubmit() {
         waitUntilClickable(submit);
         submit.click();
+        return new SuccessPage(driver);
     }
 
 
-    public void openLoginPage(){
+    public void openLoginPage() {
         waitUntilClickable(practicePage);
         practicePage.click();
 
         waitUntilClickable(loginPageSection);
         loginPageSection.click();
     }
-
-    public void login(String username, String password){
-        enterUsername(username);
-        enterPassword(password);
-        clickSubmit();
-
-    }
-
 
 
 }

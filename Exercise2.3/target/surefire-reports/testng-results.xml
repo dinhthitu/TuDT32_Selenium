@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-31T18:36:40 ICT" name="Exercise 2.3 - Login" finished-at="2026-01-31T18:37:01 ICT" duration-ms="20453">
+    <groups>
+    </groups>
+    <test started-at="2026-01-31T18:36:40 ICT" name="Login Test" finished-at="2026-01-31T18:37:01 ICT" duration-ms="20453">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@1dde4cb2]" started-at="2026-01-31T18:36:40 ICT" name="setUp" finished-at="2026-01-31T18:36:44 ICT" duration-ms="3988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.LoginTest@1dde4cb2]" started-at="2026-01-31T18:36:44 ICT" name="initPage" finished-at="2026-01-31T18:36:44 ICT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="test_login_successfully()[pri:1, instance:tests.LoginTest@1dde4cb2]" started-at="2026-01-31T18:36:44 ICT" name="test_login_successfully" finished-at="2026-01-31T18:36:47 ICT" duration-ms="2319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_successfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@1dde4cb2]" started-at="2026-01-31T18:36:47 ICT" name="tearDown" finished-at="2026-01-31T18:36:47 ICT" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@1dde4cb2]" started-at="2026-01-31T18:36:47 ICT" name="setUp" finished-at="2026-01-31T18:36:49 ICT" duration-ms="2390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_login_invalid_username()[pri:2, instance:tests.LoginTest@1dde4cb2]" started-at="2026-01-31T18:36:49 ICT" name="test_login_invalid_username" finished-at="2026-01-31T18:36:51 ICT" duration-ms="1890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_invalid_username -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.LoginTest@1dde4cb2]" started-at="2026-01-31T18:36:49 ICT" name="initPage" finished-at="2026-01-31T18:36:49 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@1dde4cb2]" started-at="2026-01-31T18:36:51 ICT" name="tearDown" finished-at="2026-01-31T18:36:51 ICT" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@1dde4cb2]" started-at="2026-01-31T18:36:51 ICT" name="setUp" finished-at="2026-01-31T18:36:54 ICT" duration-ms="2556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_login_invalid_password()[pri:3, instance:tests.LoginTest@1dde4cb2]" started-at="2026-01-31T18:36:54 ICT" name="test_login_invalid_password" finished-at="2026-01-31T18:36:56 ICT" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_invalid_password -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.LoginTest@1dde4cb2]" started-at="2026-01-31T18:36:54 ICT" name="initPage" finished-at="2026-01-31T18:36:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@1dde4cb2]" started-at="2026-01-31T18:36:56 ICT" name="tearDown" finished-at="2026-01-31T18:36:56 ICT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@1dde4cb2]" started-at="2026-01-31T18:36:56 ICT" name="setUp" finished-at="2026-01-31T18:36:58 ICT" duration-ms="2277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.LoginTest@1dde4cb2]" started-at="2026-01-31T18:36:58 ICT" name="initPage" finished-at="2026-01-31T18:36:58 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="test_advanced_requirements()[pri:4, instance:tests.LoginTest@1dde4cb2]" started-at="2026-01-31T18:36:58 ICT" name="test_advanced_requirements" finished-at="2026-01-31T18:37:01 ICT" duration-ms="2382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_advanced_requirements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@1dde4cb2]" started-at="2026-01-31T18:37:01 ICT" name="tearDown" finished-at="2026-01-31T18:37:01 ICT" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Exercise 2.3 - Login -->
+</testng-results>

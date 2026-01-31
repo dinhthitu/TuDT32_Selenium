@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class ConfigData {
 
-    private static final Properties properties = new Properties();
+    private static final Properties PROPERTIES = new Properties();
     private static final String CONFIG_PATH = "config.properties";
 
     public static String appUrl;
@@ -17,17 +17,19 @@ public class ConfigData {
     public static String message;
     public static String invalidUsername;
     public static String invalidPassword;
+    public static String successUrl;
 
     static {
         try (InputStream input = new FileInputStream(CONFIG_PATH)) {
-            properties.load(input);
-            browser = properties.getProperty("browser");
-            appUrl = properties.getProperty("URL");
-            username = properties.getProperty("username");
-            password = properties.getProperty("password");
-            message = properties.getProperty("message");
-            invalidUsername = properties.getProperty("invalidUsername");
-            invalidPassword = properties.getProperty("invalidPassword");
+            PROPERTIES.load(input);
+            browser = PROPERTIES.getProperty("browser");
+            appUrl = PROPERTIES.getProperty("URL");
+            username = PROPERTIES.getProperty("username");
+            password = PROPERTIES.getProperty("password");
+            message = PROPERTIES.getProperty("message");
+            invalidUsername = PROPERTIES.getProperty("invalidUsername");
+            invalidPassword = PROPERTIES.getProperty("invalidPassword");
+            successUrl = PROPERTIES.getProperty("successURL");
         } catch (IOException e) {
             throw new RuntimeException("Cannot load config", e);
         }
