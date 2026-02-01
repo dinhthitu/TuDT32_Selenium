@@ -1,32 +1,28 @@
 package driver;
 
-import config.configData;
+import config.ConfigProperties;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
-import java.io.IOException;
-
 public class DriverManager {
 
     private static WebDriver driver;
 
-    public static void initDriver() throws IOException{
-        configData.initializeProperty();
+    public static void initDriver() {
 
-        if (configData.browser.equalsIgnoreCase("chrome")) {
+        if(ConfigProperties.browser.equalsIgnoreCase("chrome")){
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
-        } else {
+        }  else {
             WebDriverManager.edgedriver().setup();
             driver = new EdgeDriver();
         }
-
-        driver.get(configData.url);
+        driver.get(ConfigProperties.url);
     }
 
-    public static WebDriver getDriver() {
+    public static WebDriver getDriver(){
         return driver;
     }
 
@@ -34,7 +30,5 @@ public class DriverManager {
         if (driver != null) {
             driver.quit();
         }
-
     }
-
 }

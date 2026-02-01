@@ -12,6 +12,11 @@ public class DriverManager {
 
     private static WebDriver driver;
 
+<<<<<<<< HEAD:Exercise2.3/src/main/java/driver/DriverManager.java
+    public static void initDriver() {
+========
+>>>>>>>> f0d3836d63c763d2f5d743e3d6b91b615bbe0aaa:LocatorStrategies/src/main/java/driver/DriverManager.java
+
     public static void initDriver() throws IOException{
         configData.initializeProperty();
 
