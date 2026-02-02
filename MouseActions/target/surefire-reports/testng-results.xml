@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-02T15:11:05 ICT" name="Surefire suite" finished-at="2026-02-02T15:12:10 ICT" duration-ms="64895">
+    <groups>
+    </groups>
+    <test started-at="2026-02-02T15:11:05 ICT" name="Surefire test" finished-at="2026-02-02T15:12:10 ICT" duration-ms="64895">
+      <class name="ButtonTest">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:05 ICT" name="initBrowser" finished-at="2026-02-02T15:11:18 ICT" duration-ms="13080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:18 ICT" name="setup" finished-at="2026-02-02T15:11:18 ICT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="double_click_success()[pri:1, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:18 ICT" name="double_click_success" finished-at="2026-02-02T15:11:18 ICT" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- double_click_success -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:18 ICT" name="teaDown" finished-at="2026-02-02T15:11:19 ICT" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:19 ICT" name="initBrowser" finished-at="2026-02-02T15:11:31 ICT" duration-ms="11767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:31 ICT" name="setup" finished-at="2026-02-02T15:11:31 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="double_click_unsuccess()[pri:2, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:31 ICT" name="double_click_unsuccess" finished-at="2026-02-02T15:11:31 ICT" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- double_click_unsuccess -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:31 ICT" name="teaDown" finished-at="2026-02-02T15:11:31 ICT" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:31 ICT" name="initBrowser" finished-at="2026-02-02T15:11:44 ICT" duration-ms="12719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:44 ICT" name="setup" finished-at="2026-02-02T15:11:44 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="right_click_success()[pri:3, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:44 ICT" name="right_click_success" finished-at="2026-02-02T15:11:44 ICT" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- right_click_success -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:44 ICT" name="teaDown" finished-at="2026-02-02T15:11:45 ICT" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:45 ICT" name="initBrowser" finished-at="2026-02-02T15:11:57 ICT" duration-ms="11817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:57 ICT" name="setup" finished-at="2026-02-02T15:11:57 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="right_click_unsuccess()[pri:4, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:57 ICT" name="right_click_unsuccess" finished-at="2026-02-02T15:11:57 ICT" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- right_click_unsuccess -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:57 ICT" name="teaDown" finished-at="2026-02-02T15:11:57 ICT" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:11:57 ICT" name="initBrowser" finished-at="2026-02-02T15:12:09 ICT" duration-ms="11627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:12:09 ICT" name="setup" finished-at="2026-02-02T15:12:09 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="move_and_click_success()[pri:5, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:12:09 ICT" name="move_and_click_success" finished-at="2026-02-02T15:12:09 ICT" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- move_and_click_success -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:ButtonTest@6e0dec4a]" started-at="2026-02-02T15:12:09 ICT" name="teaDown" finished-at="2026-02-02T15:12:10 ICT" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+      </class> <!-- ButtonTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
