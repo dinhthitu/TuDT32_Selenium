@@ -1,0 +1,7 @@
+<suite name="Mouse Action and Keyboard Test">
+    <test name="Mouse Action and Keyboard">
+        <classes>
+            <class name="ButtonTest"/>
+        </classes>
+    </test>
+</suite>

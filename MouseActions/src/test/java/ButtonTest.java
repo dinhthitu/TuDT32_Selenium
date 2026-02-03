@@ -18,7 +18,7 @@ public class ButtonTest extends BaseTest {
         buttonPage = new ButtonPage(DriverManager.getDriver());
     }
 
-    @Test(priority = 1)
+    @Test
     public void double_click_success() {
         String message = buttonPage
                 .doubleClickButton(PageLocators.DOUBLE_CLICK_BTN)
@@ -27,13 +27,13 @@ public class ButtonTest extends BaseTest {
         assertEquals(ConfigProperties.doubleClickMsg,message);
     }
 
-    @Test(priority = 2)
+    @Test
     public void double_click_unsuccess() {
         buttonPage = buttonPage.moveToButtonAndClick(PageLocators.DOUBLE_CLICK_BTN);
         assertFalse(buttonPage.isDoubleClickMessageDisplayed());
     }
 
-    @Test(priority = 3)
+    @Test
     public void right_click_success() {
             String message = buttonPage
                     .rightClickButton(PageLocators.RIGHT_CLICK_BTN)
@@ -41,14 +41,14 @@ public class ButtonTest extends BaseTest {
             assertEquals(ConfigProperties.rightClickMsg, message);
     }
 
-    @Test(priority = 4)
+    @Test
     public void right_click_unsuccess() {
         buttonPage = buttonPage.doubleClickButton(PageLocators.RIGHT_CLICK_BTN);
         assertFalse(buttonPage.isRightClickMessageDisplayed());
     }
 
 
-    @Test(priority = 5)
+    @Test
     public void move_and_click_success() {
         String message = buttonPage
                 .moveToButtonAndClick(PageLocators.CLICK_BTN)

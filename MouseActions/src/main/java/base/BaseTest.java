@@ -12,6 +12,7 @@ import java.io.IOException;
 public class BaseTest {
 
     static int index = 1;
+
     @BeforeMethod
     public void initBrowser() {
         DriverManager.initDriver();

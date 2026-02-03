@@ -8,15 +8,30 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">64,895</td><td></td><td></td></tr>
+<tr><th colspan="8">Mouse Action and Keyboard Test</th></tr>
+<tr><td><a href="#t0">Mouse Action and Keyboard</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">5</td><td class="num">65</td><td>negative, positive</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">ButtonTest</td><td><a href="#m0">double_click_success</a></td><td rowspan="1">1770019878483</td><td rowspan="1">311</td></tr><tr class="passedeven"><td><a href="#m1">double_click_unsuccess</a></td><td rowspan="1">1770019891055</td><td rowspan="1">446</td></tr><tr class="passedeven"><td><a href="#m2">move_and_click_success</a></td><td rowspan="1">1770019929387</td><td rowspan="1">428</td></tr><tr class="passedeven"><td><a href="#m3">right_click_success</a></td><td rowspan="1">1770019904652</td><td rowspan="1">246</td></tr><tr class="passedeven"><td><a href="#m4">right_click_unsuccess</a></td><td rowspan="1">1770019917096</td><td rowspan="1">246</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Mouse Action and Keyboard Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Mouse Action and Keyboard &#8212; failed</th></tr><tr class="failedeven"><td rowspan="5">ButtonTest</td><td><a href="#m0">double_click_success</a></td><td rowspan="1">1770118085745</td><td rowspan="1">8</td></tr><tr class="failedeven"><td><a href="#m1">double_click_unsuccess</a></td><td rowspan="1">1770118085762</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m2">move_and_click_success</a></td><td rowspan="1">1770118085764</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m3">right_click_success</a></td><td rowspan="1">1770118085766</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m4">right_click_unsuccess</a></td><td rowspan="1">1770118085768</td><td rowspan="1">1</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">ButtonTest#double_click_success</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">ButtonTest#double_click_unsuccess</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">ButtonTest#move_and_click_success</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">ButtonTest#right_click_success</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">ButtonTest#right_click_unsuccess</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Mouse Action and Keyboard</h2><h3 id="m0">ButtonTest#double_click_success</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;pages.ButtonPage.doubleClickButton(org.openqa.selenium.By)&quot; because &quot;this.buttonPage&quot; is null
+	at ButtonTest.double_click_success(ButtonTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">ButtonTest#double_click_unsuccess</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;pages.ButtonPage.moveToButtonAndClick(org.openqa.selenium.By)&quot; because &quot;this.buttonPage&quot; is null
+	at ButtonTest.double_click_unsuccess(ButtonTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">ButtonTest#move_and_click_success</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;pages.ButtonPage.moveToButtonAndClick(org.openqa.selenium.By)&quot; because &quot;this.buttonPage&quot; is null
+	at ButtonTest.move_and_click_success(ButtonTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">ButtonTest#right_click_success</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;pages.ButtonPage.rightClickButton(org.openqa.selenium.By)&quot; because &quot;this.buttonPage&quot; is null
+	at ButtonTest.right_click_success(ButtonTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">ButtonTest#right_click_unsuccess</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;pages.ButtonPage.doubleClickButton(org.openqa.selenium.By)&quot; because &quot;this.buttonPage&quot; is null
+	at ButtonTest.right_click_unsuccess(ButtonTest.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
