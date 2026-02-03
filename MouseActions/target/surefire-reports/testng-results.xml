@@ -1,241 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-03T18:28:05 ICT" name="Mouse Action and Keyboard Test" finished-at="2026-02-03T18:28:05 ICT" duration-ms="65">
+  <suite started-at="2026-02-03T18:35:53 ICT" name="Mouse Action and Keyboard Test" finished-at="2026-02-03T18:38:12 ICT" duration-ms="139603">
     <groups>
-      <group name="negative">
-        <method signature="ButtonTest.double_click_unsuccess()[pri:0, instance:ButtonTest@f5ac9e4]" name="double_click_unsuccess" class="ButtonTest"/>
-        <method signature="ButtonTest.right_click_unsuccess()[pri:0, instance:ButtonTest@f5ac9e4]" name="right_click_unsuccess" class="ButtonTest"/>
-      </group> <!-- negative -->
-      <group name="positive">
-        <method signature="ButtonTest.double_click_success()[pri:0, instance:ButtonTest@f5ac9e4]" name="double_click_success" class="ButtonTest"/>
-        <method signature="ButtonTest.move_and_click_success()[pri:0, instance:ButtonTest@f5ac9e4]" name="move_and_click_success" class="ButtonTest"/>
-        <method signature="ButtonTest.right_click_success()[pri:0, instance:ButtonTest@f5ac9e4]" name="right_click_success" class="ButtonTest"/>
-      </group> <!-- positive -->
     </groups>
-    <test started-at="2026-02-03T18:28:05 ICT" name="Mouse Action and Keyboard" finished-at="2026-02-03T18:28:05 ICT" duration-ms="65">
+    <test started-at="2026-02-03T18:35:53 ICT" name="Mouse Action and Keyboard" finished-at="2026-02-03T18:38:12 ICT" duration-ms="139603">
       <class name="ButtonTest">
-        <test-method signature="double_click_success()[pri:0, instance:ButtonTest@f5ac9e4]" started-at="2026-02-03T18:28:05 ICT" name="double_click_success" finished-at="2026-02-03T18:28:05 ICT" duration-ms="8" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "pages.ButtonPage.doubleClickButton(org.openqa.selenium.By)" because "this.buttonPage" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pages.ButtonPage.doubleClickButton(org.openqa.selenium.By)" because "this.buttonPage" is null
-at ButtonTest.double_click_success(ButtonTest.java:25)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:35:53 ICT" name="initBrowser" finished-at="2026-02-03T18:36:27 ICT" duration-ms="33976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:36:27 ICT" name="setup" finished-at="2026-02-03T18:36:27 ICT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="double_click_success()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:36:27 ICT" name="double_click_success" finished-at="2026-02-03T18:36:27 ICT" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- double_click_success -->
-        <test-method signature="double_click_unsuccess()[pri:0, instance:ButtonTest@f5ac9e4]" started-at="2026-02-03T18:28:05 ICT" name="double_click_unsuccess" finished-at="2026-02-03T18:28:05 ICT" duration-ms="1" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "pages.ButtonPage.moveToButtonAndClick(org.openqa.selenium.By)" because "this.buttonPage" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pages.ButtonPage.moveToButtonAndClick(org.openqa.selenium.By)" because "this.buttonPage" is null
-at ButtonTest.double_click_unsuccess(ButtonTest.java:33)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:36:27 ICT" name="teaDown" finished-at="2026-02-03T18:36:27 ICT" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:36:27 ICT" name="initBrowser" finished-at="2026-02-03T18:36:45 ICT" duration-ms="17620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:36:45 ICT" name="setup" finished-at="2026-02-03T18:36:45 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="double_click_unsuccess()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:36:45 ICT" name="double_click_unsuccess" finished-at="2026-02-03T18:36:46 ICT" duration-ms="440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- double_click_unsuccess -->
-        <test-method signature="move_and_click_success()[pri:0, instance:ButtonTest@f5ac9e4]" started-at="2026-02-03T18:28:05 ICT" name="move_and_click_success" finished-at="2026-02-03T18:28:05 ICT" duration-ms="1" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "pages.ButtonPage.moveToButtonAndClick(org.openqa.selenium.By)" because "this.buttonPage" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pages.ButtonPage.moveToButtonAndClick(org.openqa.selenium.By)" because "this.buttonPage" is null
-at ButtonTest.move_and_click_success(ButtonTest.java:55)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:36:46 ICT" name="teaDown" finished-at="2026-02-03T18:36:46 ICT" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:36:46 ICT" name="initBrowser" finished-at="2026-02-03T18:37:26 ICT" duration-ms="39576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="move_and_click_success()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:37:26 ICT" name="move_and_click_success" finished-at="2026-02-03T18:37:26 ICT" duration-ms="477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- move_and_click_success -->
-        <test-method signature="right_click_success()[pri:0, instance:ButtonTest@f5ac9e4]" started-at="2026-02-03T18:28:05 ICT" name="right_click_success" finished-at="2026-02-03T18:28:05 ICT" duration-ms="1" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "pages.ButtonPage.rightClickButton(org.openqa.selenium.By)" because "this.buttonPage" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pages.ButtonPage.rightClickButton(org.openqa.selenium.By)" because "this.buttonPage" is null
-at ButtonTest.right_click_success(ButtonTest.java:40)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:37:26 ICT" name="setup" finished-at="2026-02-03T18:37:26 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:37:26 ICT" name="teaDown" finished-at="2026-02-03T18:37:26 ICT" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:37:26 ICT" name="initBrowser" finished-at="2026-02-03T18:37:52 ICT" duration-ms="25986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:37:52 ICT" name="setup" finished-at="2026-02-03T18:37:52 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="right_click_success()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:37:52 ICT" name="right_click_success" finished-at="2026-02-03T18:37:53 ICT" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- right_click_success -->
-        <test-method signature="right_click_unsuccess()[pri:0, instance:ButtonTest@f5ac9e4]" started-at="2026-02-03T18:28:05 ICT" name="right_click_unsuccess" finished-at="2026-02-03T18:28:05 ICT" duration-ms="1" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "pages.ButtonPage.doubleClickButton(org.openqa.selenium.By)" because "this.buttonPage" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pages.ButtonPage.doubleClickButton(org.openqa.selenium.By)" because "this.buttonPage" is null
-at ButtonTest.right_click_unsuccess(ButtonTest.java:47)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:37:53 ICT" name="teaDown" finished-at="2026-02-03T18:37:53 ICT" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:37:53 ICT" name="initBrowser" finished-at="2026-02-03T18:38:12 ICT" duration-ms="18616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:38:12 ICT" name="setup" finished-at="2026-02-03T18:38:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="right_click_unsuccess()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:38:12 ICT" name="right_click_unsuccess" finished-at="2026-02-03T18:38:12 ICT" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- right_click_unsuccess -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:38:12 ICT" name="teaDown" finished-at="2026-02-03T18:38:12 ICT" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
       </class> <!-- ButtonTest -->
     </test> <!-- Mouse Action and Keyboard -->
   </suite> <!-- Mouse Action and Keyboard Test -->
