@@ -12,7 +12,7 @@ import java.time.Duration;
 public class BasePage {
 
     protected WebDriver driver;
-    private WebDriverWait wait;
+    protected WebDriverWait wait;
     protected Actions action;
 
     public BasePage(WebDriver driver) {
@@ -25,5 +25,7 @@ public class BasePage {
         return wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
 
-
+    public WebElement waitUntilVisible(By locator) {
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
 }

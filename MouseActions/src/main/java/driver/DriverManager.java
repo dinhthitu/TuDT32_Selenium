@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverManager {
 
-    protected static WebDriver driver;
+    private static WebDriver driver;
 
     public static void initDriver() {
         if (ConfigProperties.browser.equalsIgnoreCase("chrome")) {
@@ -22,7 +22,6 @@ public class DriverManager {
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
         }
-        driver.get(ConfigProperties.url);
         driver.manage().window().maximize();
     }
 
@@ -33,6 +32,7 @@ public class DriverManager {
     public static void quitDriver() {
         if (driver != null) {
             driver.quit();
+            driver = null;
         }
     }
 }

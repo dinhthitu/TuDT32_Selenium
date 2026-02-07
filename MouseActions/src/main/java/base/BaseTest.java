@@ -1,4 +1,5 @@
 package base;
+
 import driver.DriverManager;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -11,7 +12,7 @@ import java.io.IOException;
 
 public class BaseTest {
 
-    static int index = 1;
+    private static int index = 1;
 
     @BeforeMethod
     public void initBrowser() {
@@ -19,13 +20,17 @@ public class BaseTest {
     }
 
     @AfterMethod
-    public void teaDown() throws IOException {
-        TakesScreenshot scrShot = (TakesScreenshot) DriverManager.getDriver();
-        File srcFile = scrShot.getScreenshotAs(OutputType.FILE);
-        File targetedFile = new File("./image" + index + ".png");
-        index++;
-        FileUtils.copyFile(srcFile, targetedFile);
+    public void tearDown() throws IOException {
+        takeScreenshot();
         DriverManager.quitDriver();
     }
 
+    private void takeScreenshot() throws IOException {
+        TakesScreenshot scrShot = (TakesScreenshot) DriverManager.getDriver();
+        File srcFile = scrShot.getScreenshotAs(OutputType.FILE);
+        File targetedFile = new File("./screenshots/image" + index + ".png");
+        index++;
+        targetedFile.getParentFile().mkdirs();
+        FileUtils.copyFile(srcFile, targetedFile);
+    }
 }

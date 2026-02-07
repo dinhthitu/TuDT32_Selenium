@@ -1,93 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-03T18:35:53 ICT" name="Mouse Action and Keyboard Test" finished-at="2026-02-03T18:38:12 ICT" duration-ms="139603">
+  <suite started-at="2026-02-07T15:13:12 ICT" name="Test Suite" finished-at="2026-02-07T15:14:00 ICT" duration-ms="48160">
     <groups>
     </groups>
-    <test started-at="2026-02-03T18:35:53 ICT" name="Mouse Action and Keyboard" finished-at="2026-02-03T18:38:12 ICT" duration-ms="139603">
+    <test started-at="2026-02-07T15:13:12 ICT" name="Button Tests" finished-at="2026-02-07T15:13:46 ICT" duration-ms="34820">
       <class name="ButtonTest">
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:35:53 ICT" name="initBrowser" finished-at="2026-02-03T18:36:27 ICT" duration-ms="33976" status="PASS">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:12 ICT" name="initBrowser" finished-at="2026-02-07T15:13:13 ICT" duration-ms="1608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:36:27 ICT" name="setup" finished-at="2026-02-03T18:36:27 ICT" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:13 ICT" name="setup" finished-at="2026-02-07T15:13:19 ICT" duration-ms="5672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="double_click_success()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:36:27 ICT" name="double_click_success" finished-at="2026-02-03T18:36:27 ICT" duration-ms="295" status="PASS">
+        <test-method signature="testDoubleClickSuccess()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:19 ICT" name="testDoubleClickSuccess" finished-at="2026-02-07T15:13:19 ICT" duration-ms="387" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- double_click_success -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:36:27 ICT" name="teaDown" finished-at="2026-02-03T18:36:27 ICT" duration-ms="473" status="PASS">
+        </test-method> <!-- testDoubleClickSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:19 ICT" name="tearDown" finished-at="2026-02-07T15:13:20 ICT" duration-ms="552" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teaDown -->
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:36:27 ICT" name="initBrowser" finished-at="2026-02-03T18:36:45 ICT" duration-ms="17620" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:20 ICT" name="initBrowser" finished-at="2026-02-07T15:13:21 ICT" duration-ms="709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:36:45 ICT" name="setup" finished-at="2026-02-03T18:36:45 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:21 ICT" name="setup" finished-at="2026-02-07T15:13:25 ICT" duration-ms="4371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="double_click_unsuccess()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:36:45 ICT" name="double_click_unsuccess" finished-at="2026-02-03T18:36:46 ICT" duration-ms="440" status="PASS">
+        <test-method signature="testDoubleClickUnsuccessful()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:25 ICT" name="testDoubleClickUnsuccessful" finished-at="2026-02-07T15:13:25 ICT" duration-ms="486" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- double_click_unsuccess -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:36:46 ICT" name="teaDown" finished-at="2026-02-03T18:36:46 ICT" duration-ms="389" status="PASS">
+        </test-method> <!-- testDoubleClickUnsuccessful -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:25 ICT" name="tearDown" finished-at="2026-02-07T15:13:26 ICT" duration-ms="382" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teaDown -->
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:36:46 ICT" name="initBrowser" finished-at="2026-02-03T18:37:26 ICT" duration-ms="39576" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:26 ICT" name="initBrowser" finished-at="2026-02-07T15:13:26 ICT" duration-ms="658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="move_and_click_success()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:37:26 ICT" name="move_and_click_success" finished-at="2026-02-03T18:37:26 ICT" duration-ms="477" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- move_and_click_success -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:37:26 ICT" name="setup" finished-at="2026-02-03T18:37:26 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:26 ICT" name="setup" finished-at="2026-02-07T15:13:31 ICT" duration-ms="4808" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:37:26 ICT" name="teaDown" finished-at="2026-02-03T18:37:26 ICT" duration-ms="418" status="PASS">
+        <test-method signature="testMoveAndClickSuccess()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:31 ICT" name="testMoveAndClickSuccess" finished-at="2026-02-07T15:13:32 ICT" duration-ms="433" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teaDown -->
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:37:26 ICT" name="initBrowser" finished-at="2026-02-03T18:37:52 ICT" duration-ms="25986" status="PASS">
+        </test-method> <!-- testMoveAndClickSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:32 ICT" name="tearDown" finished-at="2026-02-07T15:13:32 ICT" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:32 ICT" name="initBrowser" finished-at="2026-02-07T15:13:33 ICT" duration-ms="697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:37:52 ICT" name="setup" finished-at="2026-02-03T18:37:52 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:33 ICT" name="setup" finished-at="2026-02-07T15:13:39 ICT" duration-ms="5864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="right_click_success()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:37:52 ICT" name="right_click_success" finished-at="2026-02-03T18:37:53 ICT" duration-ms="267" status="PASS">
+        <test-method signature="testRightClickSuccess()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:39 ICT" name="testRightClickSuccess" finished-at="2026-02-07T15:13:39 ICT" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- right_click_success -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:37:53 ICT" name="teaDown" finished-at="2026-02-03T18:37:53 ICT" duration-ms="387" status="PASS">
+        </test-method> <!-- testRightClickSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:39 ICT" name="tearDown" finished-at="2026-02-07T15:13:39 ICT" duration-ms="398" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teaDown -->
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:37:53 ICT" name="initBrowser" finished-at="2026-02-03T18:38:12 ICT" duration-ms="18616" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:39 ICT" name="initBrowser" finished-at="2026-02-07T15:13:40 ICT" duration-ms="677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:38:12 ICT" name="setup" finished-at="2026-02-03T18:38:12 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:40 ICT" name="setup" finished-at="2026-02-07T15:13:46 ICT" duration-ms="5849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="right_click_unsuccess()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:38:12 ICT" name="right_click_unsuccess" finished-at="2026-02-03T18:38:12 ICT" duration-ms="212" status="PASS">
+        <test-method signature="testRightClickUnsuccessful()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:46 ICT" name="testRightClickUnsuccessful" finished-at="2026-02-07T15:13:46 ICT" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- right_click_unsuccess -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-03T18:38:12 ICT" name="teaDown" finished-at="2026-02-03T18:38:12 ICT" duration-ms="403" status="PASS">
+        </test-method> <!-- testRightClickUnsuccessful -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ButtonTest@43195e57]" started-at="2026-02-07T15:13:46 ICT" name="tearDown" finished-at="2026-02-07T15:13:46 ICT" duration-ms="367" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teaDown -->
+        </test-method> <!-- tearDown -->
       </class> <!-- ButtonTest -->
-    </test> <!-- Mouse Action and Keyboard -->
-  </suite> <!-- Mouse Action and Keyboard Test -->
+    </test> <!-- Button Tests -->
+    <test started-at="2026-02-07T15:13:46 ICT" name="Droppable Tests" finished-at="2026-02-07T15:13:52 ICT" duration-ms="5980">
+      <class name="DropAndDragTest">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:DropAndDragTest@4562e04d]" started-at="2026-02-07T15:13:46 ICT" name="initBrowser" finished-at="2026-02-07T15:13:47 ICT" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:DropAndDragTest@4562e04d]" started-at="2026-02-07T15:13:47 ICT" name="setup" finished-at="2026-02-07T15:13:52 ICT" duration-ms="4545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDragAndDrop()[pri:0, instance:DropAndDragTest@4562e04d]" started-at="2026-02-07T15:13:52 ICT" name="testDragAndDrop" finished-at="2026-02-07T15:13:52 ICT" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDrop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DropAndDragTest@4562e04d]" started-at="2026-02-07T15:13:52 ICT" name="tearDown" finished-at="2026-02-07T15:13:52 ICT" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DropAndDragTest -->
+    </test> <!-- Droppable Tests -->
+    <test started-at="2026-02-07T15:13:52 ICT" name="TextBox Tests" finished-at="2026-02-07T15:14:00 ICT" duration-ms="7344">
+      <class name="TextBoxTest">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:TextBoxTest@31304f14]" started-at="2026-02-07T15:13:52 ICT" name="initBrowser" finished-at="2026-02-07T15:13:53 ICT" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TextBoxTest@31304f14]" started-at="2026-02-07T15:13:53 ICT" name="setup" finished-at="2026-02-07T15:13:59 ICT" duration-ms="5720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSetCurrentAddress()[pri:0, instance:TextBoxTest@31304f14]" started-at="2026-02-07T15:13:59 ICT" name="testSetCurrentAddress" finished-at="2026-02-07T15:13:59 ICT" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetCurrentAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TextBoxTest@31304f14]" started-at="2026-02-07T15:13:59 ICT" name="tearDown" finished-at="2026-02-07T15:14:00 ICT" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TextBoxTest -->
+    </test> <!-- TextBox Tests -->
+  </suite> <!-- Test Suite -->
 </testng-results>
