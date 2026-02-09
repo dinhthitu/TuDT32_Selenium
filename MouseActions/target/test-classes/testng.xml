@@ -1,0 +1,19 @@
+<suite name="Test Suite">
+    <test name="Button Tests">
+        <classes>
+            <class name="ButtonTest"/>
+        </classes>
+    </test>
+
+    <test name="Droppable Tests">
+        <classes>
+            <class name="DropAndDragTest"/>
+        </classes>
+    </test>
+
+    <test name="TextBox Tests">
+        <classes>
+            <class name="TextBoxTest"/>
+        </classes>
+    </test>
+</suite>
