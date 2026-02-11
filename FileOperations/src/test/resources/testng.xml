@@ -1,7 +1,0 @@
-<suite name="File Operations">
-    <test name="File Operations Test">
-        <classes>
-            <class name="UploadDownloadTest"/>
-        </classes>
-    </test>
-</suite>

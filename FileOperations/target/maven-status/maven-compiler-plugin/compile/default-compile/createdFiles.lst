@@ -1,7 +1,0 @@
-base\BaseTest.class
-utils\FileUtils.class
-page\FilePage.class
-page\BasePage.class
-locator\PageLocator.class
-config\ConfigData.class
-driver\DriverManager.class
